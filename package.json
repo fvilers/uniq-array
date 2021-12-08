@@ -1,12 +1,16 @@
 {
-  "name": "uniq-array",
+  "name": "@fvilers/uniq-array",
   "version": "0.0.0",
   "description": "An helper function to filter an array for uniqueness based on a property or a predicate",
   "main": "dist/src/uniq-array.js",
   "types": "dist/src/uniq-array.d.ts",
   "scripts": {
     "build": "tsc",
+    "prepare": "npm run build",
     "test": "jest"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
