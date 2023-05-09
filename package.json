@@ -1,6 +1,6 @@
 {
   "name": "@fvilers/uniq-array",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An helper function to filter an array for uniqueness based on a property or a predicate",
   "type": "module",
   "main": "dist/src/uniq-array.js",
