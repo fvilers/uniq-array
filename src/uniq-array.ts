@@ -1,4 +1,4 @@
-function uniqArray<T, K extends keyof T>(array: T[], on?: K): T[] {
+export function uniqArray<T, K extends keyof T>(array: T[], on?: K): T[] {
   const uniq = new Array<T>();
   const predicate = (item: T): T | T[K] => (on === undefined ? item : item[on]);
 
@@ -10,5 +10,3 @@ function uniqArray<T, K extends keyof T>(array: T[], on?: K): T[] {
 
   return uniq;
 }
-
-export default uniqArray;

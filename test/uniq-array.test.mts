@@ -1,4 +1,4 @@
-import uniqArray from "../src/uniq-array";
+import { uniqArray } from "../src/uniq-array.js";
 
 test("returns an empty array for empty array", () => {
   expect(uniqArray([])).toStrictEqual([]);
